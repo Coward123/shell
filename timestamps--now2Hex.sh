@@ -1,5 +1,6 @@
 #!/bin/bash
 now=`date +%s`
+#now=`date --day='+1 day' +%s`
 tHex=''
 t=$now
 while (( $t > 0))
