@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import paramiko
 import os
-import pdb
+
 def connect(host,uname,passwd):
         #ssh=paramiko.SSHClient()
         #ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
